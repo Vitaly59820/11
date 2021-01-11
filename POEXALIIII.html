@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+    div {
+   position:absolute;
+   background-color: pink;
+   left: 700px;
+   right: 700px;
+   top:300px;
+   bottom:300px;
+   cursor: pointer;
+   border:4px solid black;
+ }
+ </style>
+</head>
+<body>
+<div id="elem"></div>
+<input type="button" value="Количество кликов" onclick = "alert(k)"/>
+<script>
+let k=0;
+elem.onclick=function(){k+=1};
+</script>
+</body>
+</html>
